@@ -1,13 +1,15 @@
 package handler
 
 import (
-	"Assignment_3/context"
-	"Assignment_3/entity"
-	"Assignment_3/repository"
 	"encoding/json"
 	"net/http"
 	"strconv"
 	"time"
+
+	"context"
+
+	"github.com/KristianXi3/Assignment_3/entity"
+	"github.com/KristianXi3/Assignment_3/repository"
 
 	"github.com/gorilla/mux"
 )

@@ -1,12 +1,13 @@
 package handler
 
 import (
-	"Assignment_3/entity"
 	"encoding/json"
 	"io/ioutil"
 	"log"
 	"net/http"
 	"text/template"
+
+	"github.com/KristianXi3/Assignment_3/entity"
 )
 
 type RandomUserHandlerIface interface {

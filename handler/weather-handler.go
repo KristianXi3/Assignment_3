@@ -1,7 +1,6 @@
 package handler
 
 import (
-	"Assignment_3/model"
 	"encoding/json"
 	"io/ioutil"
 	"math/rand"
@@ -9,6 +8,8 @@ import (
 	"os"
 	"text/template"
 	"time"
+
+	"github.com/KristianXi3/Assignment_3/model"
 )
 
 var weather model.Weather

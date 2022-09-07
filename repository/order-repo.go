@@ -1,12 +1,13 @@
 package repository
 
 import (
-	"Assignment_3/entity"
 	"context"
 	"database/sql"
 	"fmt"
 	"log"
 	"sync"
+
+	"github.com/KristianXi3/Assignment_3/entity"
 )
 
 type OrderRepoIface interface {
