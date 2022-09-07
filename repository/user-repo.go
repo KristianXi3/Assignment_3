@@ -1,11 +1,11 @@
 package repository
 
 import (
-	"ASSIGNMENT_3/helper"
-	"ASSIGNMENT_3/model"
+	"Assignment_3/entity"
+	"Assignment_3/helper"
+	"Assignment_3/model"
 	"context"
 	"database/sql"
-	"entity"
 	"fmt"
 	"log"
 )

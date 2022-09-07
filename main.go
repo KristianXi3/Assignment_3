@@ -1,12 +1,12 @@
 package main
 
 import (
+	"Assignment_3/handler"
+	"Assignment_3/repository"
 	"context"
 	"fmt"
-	"handler"
 	"log"
 	"net/http"
-	"repository"
 	"time"
 
 	"github.com/gorilla/mux"

@@ -1,9 +1,9 @@
 package repository
 
 import (
+	"Assignment_3/entity"
 	"context"
 	"database/sql"
-	"entity"
 	"fmt"
 	"log"
 	"sync"

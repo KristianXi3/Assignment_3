@@ -1,10 +1,10 @@
 package handler
 
 import (
+	"Assignment_3/model"
 	"encoding/json"
 	"io/ioutil"
 	"math/rand"
-	"model"
 	"net/http"
 	"os"
 	"text/template"

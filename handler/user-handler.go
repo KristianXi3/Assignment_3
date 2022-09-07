@@ -1,17 +1,16 @@
 package handler
 
 import (
+	"Assignment_3/entity"
+	"Assignment_3/model"
+	"Assignment_3/repository"
 	"context"
 	"encoding/json"
-	"golang-crud-sql/entity"
-	"golang-crud-sql/model"
-	"golang-crud-sql/repository"
 	"net/http"
 	"strconv"
 	"strings"
 	"time"
 
-	_ "github.com/denisenkom/go-mssqldb"
 	"github.com/gorilla/mux"
 )
 

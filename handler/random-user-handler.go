@@ -1,8 +1,8 @@
 package handler
 
 import (
+	"Assignment_3/entity"
 	"encoding/json"
-	"golang-crud-sql/entity"
 	"io/ioutil"
 	"log"
 	"net/http"
