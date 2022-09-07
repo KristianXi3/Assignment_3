@@ -1,13 +1,13 @@
 package repository
 
 import (
+	"ASSIGNMENT_3/helper"
+	"ASSIGNMENT_3/model"
 	"context"
 	"database/sql"
 	"entity"
 	"fmt"
-	"helper"
 	"log"
-	"model"
 )
 
 type UserRepoIface interface {
