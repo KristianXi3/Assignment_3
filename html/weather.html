@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="refresh" content="15">
+        <title>WEATHER</title>
+    </head>
+    <body>
+        <h3>WEATHER</h3>
+        <ul>     
+            <li>WATER: {{.Water}}</li>
+            <li>WIND: {{.Wind}}</li>       
+            {{ if eq .Status "BAHAYA"}}
+            <li>STATUS: <span style="background-color: red">{{.Status}}</span></li>
+            {{ else if eq .Status "SIAGA"}}
+            <li>STATUS: <span style="background-color: yellow">{{.Status}}</span></li>
+            {{ else if eq .Status "AMAN"}}   
+            <li>STATUS: <span style="background-color: green">{{.Status}}</span></li>     
+            {{ else }}   
+            <li>STATUS: <span style="background-color: white">{{.Status}}</span></li>           
+            {{ end }}     
+        </ul>
+    </body>
+</html>

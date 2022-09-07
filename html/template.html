@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML</title>
+  </head>
+  <body>
+    <div>
+      <ul>
+        {{range $value := . }}
+        <li>
+          Id: {{$value.Id}},       
+          Uid: {{$value.Uid}},     
+          FirstName: {{$value.FirstName}},
+          LastName: {{$value.LastName}}, 
+          Username: {{$value.Username}}, 
+          Address: 
+            City: {{$value.Address.City}},
+            StreetName: {{$value.Address.StreetName}},
+            ZipCode: {{$value.Address.ZipCode}},
+            State: {{$value.Address.State}},
+            Country: {{$value.Address.Country}},
+            Coordinates: 
+              Lattitude: {{$value.Address.Coordinates.Lattitude}},
+              Longitude: {{$value.Address.Coordinates.Longitude}}               
+        </li>
+        {{end}}
+      </ul>
+    </div>
+  </body>
+</html>

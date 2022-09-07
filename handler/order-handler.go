@@ -3,9 +3,9 @@ package handler
 import (
 	"context"
 	"encoding/json"
-	"golang-crud-sql/entity"
-	"golang-crud-sql/repository"
+	"entity"
 	"net/http"
+	"repository"
 	"strconv"
 	"time"
 

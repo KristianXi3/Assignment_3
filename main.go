@@ -1,12 +1,12 @@
 package main
 
 import (
+	"context"
 	"fmt"
-	"golang-crud-sql/context"
-	"golang-crud-sql/handler"
-	"golang-crud-sql/repository"
+	"handler"
 	"log"
 	"net/http"
+	"repository"
 	"time"
 
 	"github.com/gorilla/mux"

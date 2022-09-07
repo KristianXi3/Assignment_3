@@ -2,9 +2,9 @@ package handler
 
 import (
 	"encoding/json"
-	"golang-crud-sql/model"
 	"io/ioutil"
 	"math/rand"
+	"model"
 	"net/http"
 	"os"
 	"text/template"
